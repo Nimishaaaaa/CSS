@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+.navbar {
+  height: 60px;
+  color: white;
+  background-color: #0f1111;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+.logo {
+  margin: 2px;
+  height: 50px;
+  width: 100%;
+}
+
+.border {
+  border: 1px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+}
+
+/* /*secon box in navbar  */
+
+.add-one {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 14px;
+}
+.add-two {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.nav-address > div {
+  display: flex;
+}
+
+/* third box */
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  background-color: lightcoral;
+  border-radius: 3.5px;
+}
+.search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 49px;
+  border-radius: 3.5px 0px 0px 3.5px;
+  text-align: center;
+  border: none;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: black;
+  background-color: #fab964;
+  border-radius: 0px 3.5px 3.5px 0px;
+}
+.nav-search:hover {
+  border: 2px solid #fab964;
+}
+/** 4th box */
+.signin-one {
+  font-size: 0.85rem;
+}
+.signin-second {
+  font-size: 0, 9rem;
+  font-weight: 600;
+}
+
+/* 5th box */
+.nav-cart {
+  display: flex;
+  align-items: center;
+}
+.nav-cart i {
+  font-size: 30px;
+}
+.cart-two {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+/* nav bar 2*/
+.nav2-bar {
+  height: 39px;
+  background-color: #232f32;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.All {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.All p {
+  margin-left: 3px;
+}
+.deals {
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.deals p {
+  margin-left: 15px;
+}
+.electronic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height:35px;
+  font-size: 14px;
+  font-weight: 600;
+
+
+}
+/*hero section*/
+.hero_image{
+  background-image: url(hero_image.jpg);
+  height:330px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:end;
+}
+.hero-div{
+  background-color: white;
+  height: 40px;
+  width:90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:40px;
+
+}
+
+.hero-div a{
+  color:#007185;
+  
+}
+.hero-div a:hover{
+  text-decoration: underline;
+  color:red;
+}
+/* cards */
+.cards{
+  background-color: lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box{
+  /* border: 1px solid black; */
+  width:23.5%;
+  height:400px;
+  background-color: white;
+  margin-top: 10px;
+  padding:20px 0px 15px;
+}
+.box-img{
+  height:300px;
+  background-size: cover;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.box-content{
+  margin: 10px 18px;
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
+}
+.box-content a{
+  color:#007185;
+}
+
+.box-content a:hover{
+  text-decoration: underline;
+  color:red;
+}
+
+/* footer */
+.foot-top{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #112b4add ;
+  color: white;
+  font-size: 13px;
+}
+.foot-mid{
+  background-color: #232f3E ;
+  color:white;
+  height:350px;
+   display: flex;
+   justify-content: center;
+}
+.foot-mid-cont{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+  width:75%;
+}
+.foot-mid ul a{
+  display: block;
+ margin-top: 16px;
+  font-size: 0.95rem;
+  color:#DDDDDD;
+}
+.foot-mid ul{
+ margin-top:60px;
+}
+.foot-mid p{
+  font-weight: 600;
+}
+
+.foot-end{
+  background-color:#232f3E ;
+  color:white;
+  border-top: 0.3px solid lightgray;
+  height: 60px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.logo{
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  width:100px;
+ 
+}
+.lan{
+  margin-left:60px;
+}
+.but{
+  width:150px;
+  background-color: transparent;
+  color: white;
+  border: 0.3px solid aliceblue;
+}
+.copyright{
+  color:#dddddd;
+  background-color: #232f3E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100px;
+  font-size: 13px;
+}
+.copyright1 a{
+  margin-left:5px;
+  margin-right: 5px;
+  
+}
+.copyright2{
+  margin:4px;
+}
+
